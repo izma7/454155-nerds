@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Андрей](https://up.htmlacademy.ru/htmlcss/20/user/454155).
+* Студент: [Андрей Шихов](https://up.htmlacademy.ru/htmlcss/20/user/454155).
 * Наставник: [Дмитрий Казанцев](https://htmlacademy.ru/profile/id24186).
 
 ---
