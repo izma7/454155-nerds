@@ -5,61 +5,67 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
+  <!-- модальное окно -->
   	<header class="main-header">
   		<nav class="main-navigation">
   			<a class="main-header-logo">
   				<img src="img/index-logo.svg" alt="Логотип магазина «Nerds»">
   			</a>
   			<ul class="site-navigation">
-  				<li href="studio.html">Студия</li>
-  				<li href="clients.html">Клиенты</li>
-  				<li href="shop.html">Магазин</li>
-  				<li href="contacts.html">Контакты</li>
-  				<li href="basket-link">Корзина</li>
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="clients.html">Клиенты</a></li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="basket-link">Корзина</a></li>
   			</ul>
   		</nav>
   	</header>
     <main class="container">
+      <h1 class="visually-hiden">Магазин-студия Nerds</h1>
     	<section class="slide">
         <ul class="slide-list">
           <li class="slide-item">
-            <h1>Долго, дорого, скрупулезно</h1>
+            <h2>Долго, дорого, скрупулезно</h2>
             <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <a class="button" href="learn-more1.html">Узнать больше</a>
           </li>
-          <a class="button" href="learn-more1.html">Узнать больше</a>
           <li class="slide-item">
-            <h1>Любим математику как никто другой</h1>
+            <h2>Любим математику как никто другой</h2>
             <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+            <a class="button" href="learn-more2.html">Узнать больше</a>
           </li>
-          <a class="button" href="learn-more2.html">Узнать больше</a>
           <li class="slide-item">
-            <h1>Только ночь, только хардкор</h1>
+            <h2>Только ночь, только хардкор</h2>
             <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+            <a class="button" href="learn-more3.html">Узнать больше</a>
           </li>
-          <a class="button" href="learn-more3.html">Узнать больше</a>
         </ul>
-        <!--кнопки смены слайдов-->
+        <div class="slider">
+          <button><img src="slide1.svg"></button>
+          <button><img src="slide2.svg"></button>
+          <button><img src="slide3.svg"></button>
+        </div>
     	</section>
       <section class="service">
-        <ul class="service-item">
-          <li class="service-website">
-            <h3>Веб-сайты</h3>
+        <ul class="service-list">
+          <li class="service-item">
+            <h2>Веб-сайты</h2>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
             <a class="button" href="order.html">Заказать</a>
           </li>
-          <li class="service-application">
-            <h3>Приложения</h3>
+          <li class="service-item">
+            <h2>Приложения</h2>
             <p>Покорите топ-10 приложения в AppStore и Google Play</p>
             <a class="button" href="order.html">Заказать</a>
           </li>
-          <li class="service-presentation">
-            <h3>Презентация</h3>
+          <li class="service-item">
+            <h2>Презентация</h2>
             <p>Вы даже не подозреваете, насколько вы изумительны!</p>
             <a class="button" href="order.html">Заказать</a>
           </li>
         </ul>
       </section>
-      <section class="???">
+      <section class="about">
         <div class="smallstudio">
           <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -74,23 +80,41 @@
           <img src="img/nerds-logo.svg">
           <p>С 2004 года любим точность во всем:</p>
           <ul>
-            <li>146%</li>
-            <li>100%</li>
-            <li>50%</li>
-          </ul>
-          <ul>
-            <li>Уровень самоотдачи</li>
-            <li>Соблюдение сроков</li>
-            <li>Минимальная предоплата</li>
+            <li>
+              <p>146%</p>
+              <p>Уровень самоотдачи</p>
+            </li>
+            <li>
+              <p>100%</p>
+              <p>Соблюдение сроков</p>
+            </li>
+            <li>
+              <p>50%</p>
+              <p>Минимальная предоплата</p>
+            </li>
           </ul>
         </div>
       </section>
-      <!--<section class="main-partners">
-
-      </section> -->
+      <section class="main-partners">
+        <ul class="partners-list">
+          <li>
+            <a href="htmlacademy.ru"><img src="img/htmlacademy.svg>"></a>
+          </li>
+          <li>
+            <a href="borodinsky.ru"><img src="img/borodinsky.svg>"></a>
+          </li>
+          <li>
+            <a href="pink.ru"><img src="img/pink.svg>"></a>
+          </li>
+          <li>
+            <a href="mishka.ru"><img src="img/mishka.svg>"></a>
+          </li>
+        </ul>
+      </section>
       <footer class="main-footer">
         <div class="footer-map">
-          <div class="footer-writeus">
+          <img src="img/map.svg">
+          <div class="footer-contacts">
             <b>Nerds design studio</b>
             <p>
               191186, Санкт-Петербург,<br>
@@ -98,8 +122,7 @@
               <br>
               тел. +7 (812) 275-75-75
             </p>
-            <a class="button" href="write-us"></a>
-            <!-- форма Напишите нам -->
+            <a class="button" href="writeus.html"></a>
           </div>
         </div>
         <div class="footer-social">
